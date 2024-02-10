@@ -21,3 +21,7 @@ poetry shell
 # first arg is the search term, second arg is the number of images you want downloaded
 python ./image_scraper "whale" "42"
 ```
+
+## FYIs
+It is difficult to test this at scale on a free google API account due to rate limiting.  
+Sometimes websites block the programmatic download of images for security reasons. An enhancement to this program could be to check for that and fetch a new image in its place.
